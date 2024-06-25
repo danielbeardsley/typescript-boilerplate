@@ -1,7 +1,6 @@
 import express, { Express, Request, Response } from 'express';
 import compression from 'compression';
 import compressFilter from './utils/compressFilter.util';
-import config from './config/config';
 
 const app: Express = express();
 
