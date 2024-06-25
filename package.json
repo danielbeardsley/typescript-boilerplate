@@ -1,8 +1,8 @@
 {
-  "name": "express-ts-boilerplate",
+  "name": "vercel-2-datadog",
   "version": "1.0.0",
-  "description": "An Express.js boilerplate backend",
-  "author": "Louis-Kaan Ay",
+  "description": "Capture vercel logs group them by request and send them to datadog.",
+  "author": "Daniel Beardsley <daniel@ifixit.com>",
   "license": "MIT",
   "private": false,
   "main": "index.js",
@@ -53,14 +53,6 @@
     "ts-jest": "^29.0.5",
     "typescript": "*"
   },
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "bugs": {
-    "url": ""
-  },
-  "homepage": "",
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
       "npx prettier --write",
